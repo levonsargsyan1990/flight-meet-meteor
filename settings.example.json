@@ -1,0 +1,8 @@
+{
+  "private": {
+    "flightStats": {
+      "appId": "FLIGHTSTATE_APP_ID",
+      "appKey": "FLIGHTSTATE_APP_KEY"
+    }
+  }
+}

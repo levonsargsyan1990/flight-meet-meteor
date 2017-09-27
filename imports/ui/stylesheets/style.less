@@ -1,0 +1,105 @@
+.app {
+  .react-datepicker-popper {
+    width: 430px;
+  }
+
+  .react-datepicker__day--selected {
+    background: #2185d0;
+  }
+
+  .ui.pointing.label {
+    position: absolute;
+    top: 100%;
+  }
+
+  .ui.header {
+    padding: 2.5em 0em 0.5em;
+  }
+
+  .ui.table thead {
+      background: rgba(1,1,1, 0.02);
+      font-weight: 800;
+  }
+
+  .ui.table tbody td.airport {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2185d0;
+  }
+
+  .ui.table tbody td.selected {
+    background-color: #dff0ff;
+    color: #2185d0;
+  }
+
+  .ui.selectable.table tbody tr.selected:hover, .ui.table tbody tr.selected td.selectable:hover {
+    background-color: #dff0ff !important;
+    color: #2185d0 !important;
+  }
+
+  .ui.header.arriving>.icon {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .flight-section {
+    margin-bottom: 50px;
+  }
+
+  .cart {
+    position: fixed;
+    right: 50px;
+    top: 195px;
+
+    .cart-open-button{
+      font-size: 1.5em;
+      .icon{
+        position: static;
+      }
+    }
+
+    .cart-close-button{
+      position: absolute;
+      left: -1em;
+      top: -1em;
+      z-index: 5;
+
+      .icon{
+        position: static;
+      }
+    }
+
+    .segment {
+      margin: 0;
+    }
+  }
+
+  .cart-selected-number {
+    position: absolute;
+    top: -0.3em;
+    right: -0.3em;
+    background: orange;
+    color: white;
+    text-align: center;
+    width: 1.75em;
+    height: 1.75em;
+    line-height: 1.75em;
+    border-radius: 50%;
+  }
+
+  .ui.very.basic.table {
+    background: #fff;
+    tr {
+      background: #fff;
+    }
+  }
+
+  .message.notification {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    margin-top: 0;
+    max-width: 600px;
+  }
+}
